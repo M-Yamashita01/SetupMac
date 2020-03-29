@@ -1,0 +1,9 @@
+taps:
+  - homebrew/cask
+  - homebrew/cask-versions
+  - homebrew/cask-fonts
+  - homebrew/core
+
+packages:
+  - { name: zsh, state: present }
+  - { name: git, state: present }

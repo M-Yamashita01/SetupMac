@@ -1,0 +1,6 @@
+packages:  
+  - { name: docker, state: present }
+  - { name: google-chrome, state: present }
+  - { name: google-japanese-ime, state: present }
+  - { name: slack, state: present }
+  - { name: visual-studio-code, state: present }
