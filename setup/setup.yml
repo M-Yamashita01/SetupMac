@@ -1,0 +1,11 @@
+- name: mac stup
+  hosts: localhost
+  connection: local
+  # sudo 実行なし
+  become: no
+  # 対象サーバの情報収集なし
+  gather_facts: no
+  # タスク呼び出し
+  roles:
+    - homebrew
+    - homebrew_cask
