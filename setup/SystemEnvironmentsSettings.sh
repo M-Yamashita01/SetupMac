@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 # define helpers
 source_dir=~/.osx-bootstrap
@@ -9,7 +9,7 @@ if [[ ! -f ~/.osx-bootstrap/.osx-bootstrap ]]; then
     echo 'Configuring OSX...'
     
     # ブート時のサウンド無効化
-    sudo nvram SystemAudioVolume=" "
+    sudo nvram SystemAudioVolume=%80
 
     # スクロール時のみスクロールバー表示
     defaults write NSGlobalDomain AppleShowScrollBars -string "WhenScrolling"
@@ -34,10 +34,8 @@ if [[ ! -f ~/.osx-bootstrap/.osx-bootstrap ]]; then
     defaults -currentHost write NSGlobalDomain com.apple.trackpad.enableSecondaryClick -bool true
 
     # OTHER
-
     # バッテリーのパーセント表示
     defaults write com.apple.menuextra.battery ShowPercent -string "YES"
-
 
     #  killall
     for app in Finder Dock Mail Safari iTunes SystemUIServer

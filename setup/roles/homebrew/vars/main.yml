@@ -5,5 +5,5 @@ taps:
   - homebrew/core
 
 packages:
-  - { name: zsh, state: present }
+  - { name: npm, state: present }
   - { name: git, state: present }

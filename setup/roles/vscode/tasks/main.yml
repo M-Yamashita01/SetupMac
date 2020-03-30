@@ -1,0 +1,5 @@
+- block:
+  - name: install a list of extension
+    shell: code --install-extension {{ item }}
+    become: yes
+    with_items: "{{ extension_list }}"
