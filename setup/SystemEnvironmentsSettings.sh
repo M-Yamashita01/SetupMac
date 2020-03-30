@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 # define helpers
 source_dir=~/.osx-bootstrap
@@ -9,7 +9,7 @@ if [[ ! -f ~/.osx-bootstrap/.osx-bootstrap ]]; then
     echo 'Configuring OSX...'
     
     # ブート時のサウンド無効化
-    sudo nvram SystemAudioVolume=" "
+    sudo nvram SystemAudioVolume=%80
 
     # スクロール時のみスクロールバー表示
     defaults write NSGlobalDomain AppleShowScrollBars -string "WhenScrolling"
@@ -37,6 +37,18 @@ if [[ ! -f ~/.osx-bootstrap/.osx-bootstrap ]]; then
 
     # バッテリーのパーセント表示
     defaults write com.apple.menuextra.battery ShowPercent -string "YES"
+
+# 入力ソースにGoogle 日本語入力をセット
+# Spotlightの無効化
+
+# 日本語入力ソースショートカットの切り替え
+
+# ３本指でのウィンドウ移動
+
+# 1本指でのタップ
+
+# Dockのサイズ変更、指定アプリのみ表示
+
 
 
     #  killall
