@@ -34,22 +34,8 @@ if [[ ! -f ~/.osx-bootstrap/.osx-bootstrap ]]; then
     defaults -currentHost write NSGlobalDomain com.apple.trackpad.enableSecondaryClick -bool true
 
     # OTHER
-
     # バッテリーのパーセント表示
     defaults write com.apple.menuextra.battery ShowPercent -string "YES"
-
-# 入力ソースにGoogle 日本語入力をセット
-# Spotlightの無効化
-
-# 日本語入力ソースショートカットの切り替え
-
-# ３本指でのウィンドウ移動
-
-# 1本指でのタップ
-
-# Dockのサイズ変更、指定アプリのみ表示
-
-
 
     #  killall
     for app in Finder Dock Mail Safari iTunes SystemUIServer
