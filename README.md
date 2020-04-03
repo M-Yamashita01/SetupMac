@@ -1,25 +1,25 @@
 # SetupMac
 
 ## Overview
-これは、macOSにソフトウェアのインストールと、zshのカスタマイズを行うセットアップツールです。
+これは、macOSにソフトウェアのインストールと、zshのカスタマイズを行うセットアップツールです。  
 This is the setup tool that installs below software and customizes zsh for macOS.
 
 ## Description
 このツールは以下ソフトウェアをインストールします。
 - インストール対象ソフトウェア
-  - ansible
-  - docker
-  - evernote
+  - Ansible
+  - Docker
+  - Evernote
   - git
-  - google-chrome
-  - google-japanese-ime
-  - homebrew
+  - Google Chrome
+  - Google日本語入力
+  - Homebrew
   - npm
-  - slack
-  - visual-studio-code
+  - Slack
+  - Visual Studio Code
 
 また、このツールはzshに対し以下カスタマイズを行います。
-- カスタマイズ内容
+- 詳細
   - ターミナルテーマをpureへ変更
   - 文字コードをUTF-8へ変更
   - ターミナル上の文字を大文字小文字関係なく補完
@@ -30,19 +30,19 @@ This is the setup tool that installs below software and customizes zsh for macOS
 
 This tool installs below software.
 - Software
-  - ansible
-  - docker
-  - evernote
+  - Ansible
+  - Docker
+  - Evernote
   - git
-  - google-chrome
-  - google-japanese-ime
-  - homebrew
+  - Google Chrome
+  - Google Japanese IME
+  - Homebrew
   - npm
-  - slack
-  - visual-studio-code
+  - Slack
+  - Visual Studio Code
 
-And、This tool performs the following customizations of zsh.
-- カスタマイズ内容
+And, this tool performs the following customizations of zsh.
+- Details
   - It changes terminal theme to pure.
   - It changes MIME to UTF-8.
   - It completes the characters on the terminal regardless of case.
@@ -54,12 +54,12 @@ And、This tool performs the following customizations of zsh.
 macOS Catalina
 
 ## Usage
-ターミナルを開き、以下コマンドを入力します。
+ターミナルを開き、以下コマンドを入力します。  
 Open terminal. and input below commands.
 ```
 zsh SetupStart.sh
 ```
 
 ## License
-このツールはMITライセンスです。
+このツールはMITライセンスです。  
 This project is licensed under the MIT License.
