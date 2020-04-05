@@ -1,7 +1,6 @@
 #!/usr/bin/env zsh
 
 # Install pure to change terminal theme
-# See https://github.com/sindresorhus/pure
 mkdir -p "$HOME/.zsh"
 git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 
