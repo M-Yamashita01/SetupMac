@@ -2,7 +2,7 @@
 
 ## Overview
 これは、macOSにソフトウェアのインストールと、zshのカスタマイズを行うセットアップツールです。  
-This is the setup tool that installs below software and customizes zsh for macOS.
+This is the setup tool that installs software and customizes zsh for macOS.
 
 ## Description
 このツールは以下ソフトウェアをインストールします。
