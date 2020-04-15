@@ -1,3 +1,4 @@
 extension_list:
   - tuttieee.emacs-mcx
   - vscoss.vscode-ansible
+  - mhutchie.git-graph # git graph
